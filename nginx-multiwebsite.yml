@@ -1,0 +1,7 @@
+services:
+  nginx:
+    image: nginx
+    ports:
+      - "8051:80"
+    volumes:
+      - ./site-content:/usr/share/nginx/html
